@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FLARE-VM custom package list (trim/extend as needed) -->
+<config>
+  <envs>
+    <env name="TOOL_LIST_DIR" value="%ProgramData%\Microsoft\Windows\Start Menu\Programs\FLARE" />
+    <env name="TOOL_LIST_SHORTCUT_DIR" value="%UserProfile%\Desktop\FLARE" />
+    <env name="RAW_TOOLS_DIR" value="%SystemDrive%\Tools" />
+  </envs>
+  <packages>
+    <package name="common.vm" />
+    <package name="7zip.vm" />
+    <package name="notepadplusplus.vm" />
+    <package name="python3.vm" />
+    <package name="sysinternals.vm" />
+    <package name="processhacker.vm" />
+    <package name="wireshark.vm" />
+    <package name="hxd.vm" />
+    <package name="die.vm" />
+    <package name="pestudio.vm" />
+    <package name="cffexplorer.vm" />
+    <package name="capa.vm" />
+    <package name="floss.vm" />
+    <package name="x64dbg.vm" />
+    <package name="ghidra.vm" />
+    <package name="dnspyex.vm" />
+  </packages>
+</config>
